@@ -97,8 +97,8 @@ export default function ExperienceSection() {
           Experience
         </h2>
         <p className="text-gray-500 mb-12 text-sm sm:text-base text-center sm:text-left">
-          Here's a timeline of my professional journey, showcasing my roles and
-          contributions in blockchain and full-stack development.
+          Here&#39;s a timeline of my professional journey, showcasing my roles
+          and contributions in blockchain and full-stack development.
         </p>
 
         {/* Experience Cards */}

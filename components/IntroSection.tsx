@@ -91,7 +91,7 @@ export default function IntroSection() {
           {/* Name + Resume Button */}
           <div className="flex justify-between flex-wrap gap-4 items-start">
             <div>
-              <h1 className="text-4xl sm:text-5xl font-bold text-white">
+              <h1 className="text-4xl sm:text-5xl font-bold text-white mb-1">
                 Hi, I&apos;m Nikita
               </h1>
               <p className="text-lg sm:text-xl text-gray-400">

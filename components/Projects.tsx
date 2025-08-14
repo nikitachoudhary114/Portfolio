@@ -134,7 +134,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="text-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl sm:w-3/4 mx-auto">
         <h2 className="text-3xl sm:text-4xl font-medium mb-4 mt-28 bg-gradient-to-r from-blue-400 to-cyan-600 text-transparent bg-clip-text text-center sm:text-left">
           Projects
