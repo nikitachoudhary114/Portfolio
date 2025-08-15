@@ -31,8 +31,8 @@ export default function IntroSection() {
   ];
 
   return (
-    <section className="flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
-      <div className=" text-center sm:text-left space-y-10 max-w-3xl sm:w-3/4 mx-auto px-6">
+    <section className="flex items-center justify-center px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
+      <div className="text-center sm:text-left space-y-8 sm:space-y-10 max-w-3xl sm:w-3/4 mx-auto px-2 sm:px-6">
         {/* Top Row: Profile + Socials */}
         <motion.div
           className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-6"
@@ -42,7 +42,7 @@ export default function IntroSection() {
         >
           {/* Profile Image */}
           <motion.div
-            className="relative h-28 w-28 flex-shrink-0"
+            className="relative h-24 w-24 sm:h-28 sm:w-28 flex-shrink-0"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -58,7 +58,7 @@ export default function IntroSection() {
           </motion.div>
 
           {/* Social Icons */}
-          <div className="flex gap-4 sm:gap-6 text-white">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-6 text-white">
             {socialIcons.map((s, i) => (
               <motion.a
                 key={s.label}
@@ -89,23 +89,22 @@ export default function IntroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           {/* Name + Resume Button */}
-          <div className="flex justify-between flex-wrap gap-4 items-start">
-            <div>
-              <h1 className="text-4xl sm:text-5xl font-bold text-white mb-1">
-                Hi, I&apos;m Nikita
+          <div className="flex flex-col sm:flex-row justify-between gap-4 items-start w-full">
+            <div className="flex flex-col items-center sm:items-start w-full">
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-1 text-center sm:text-left w-full">
+              Hi, I&apos;m Nikita
               </h1>
-              <p className="text-lg sm:text-xl text-gray-400">
-                20, Pune | Full Stack Developer
+              <p className="text-sm sm:text-base md:text-xl text-gray-400 text-center sm:text-left w-full">
+              20, Pune | Full Stack Developer
               </p>
             </div>
 
-            {/* Updated Resume Button */}
             <motion.a
               href="/Nikita_Choudhary.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-7 py-3 mt-2 sm:mt-0 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold rounded-full shadow-lg shadow-cyan-500/40 hover:shadow-cyan-500/70 transition-all duration-300"
+              className="w-full sm:w-auto inline-flex justify-center items-center gap-2 px-6 py-3 mt-2 sm:mt-0 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold rounded-full shadow-lg shadow-cyan-500/40 hover:shadow-cyan-500/70 transition-all duration-300"
               whileHover={{ scale: 1.07 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -116,7 +115,7 @@ export default function IntroSection() {
 
           {/* Intro Text */}
           <motion.p
-            className="text-gray-400 text-base sm:text-lg leading-relaxed"
+            className="text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
@@ -127,7 +126,7 @@ export default function IntroSection() {
           </motion.p>
 
           <motion.p
-            className="text-gray-400 text-base sm:text-lg leading-relaxed"
+            className="text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
