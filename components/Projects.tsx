@@ -32,6 +32,22 @@ const personalProjects: Project[] = [
     ],
   },
   {
+    title: "Weekendly",
+    link: "https://github.com/nikitachoudhary114/kairos",
+    description:
+      "An interactive weekend planner app to design personalized schedules with drag-and-drop activities, light/dark themes, offline PWA support, weekend summary, and exportable image plans. Built for Atlan’s Frontend Challenge with focus on UI polish, accessibility, and responsiveness.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Lucide React",
+      "LocalStorage",
+      "PWA",
+    ],
+  },
+  {
     title: "MedifyPro",
     link: "https://github.com/nikitachoudhary114/MedifyPro",
     description:
@@ -136,9 +152,17 @@ export default function Projects() {
   return (
     <section className="text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl sm:w-3/4 mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-medium mb-4 mt-28 bg-gradient-to-r from-blue-400 to-cyan-600 text-transparent bg-clip-text text-center sm:text-left">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="text-3xl sm:text-4xl font-medium mb-6 mt-28 
+             bg-gradient-to-r from-blue-400 to-cyan-600 
+             text-transparent bg-clip-text text-center sm:text-left 
+             leading-tight"
+        >
           Projects
-        </h2>
+        </motion.h2>
         <p className="text-slate-500 mb-8 text-sm sm:text-base text-center sm:text-left">
           A showcase of my full-stack creations — from personal passion projects
           to professional client work.
@@ -176,6 +200,7 @@ export default function Projects() {
 
         {/* Cards grid with staggered animation */}
         <motion.div
+          key={activeTab}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6"
           variants={containerVariants}
           initial="hidden"

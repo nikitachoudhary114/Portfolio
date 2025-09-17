@@ -31,7 +31,7 @@ export default function IntroSection() {
   ];
 
   return (
-    <section className="flex items-center justify-center px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
+    <section className="flex items-center justify-center px-4 sm:px-6 lg:px-8 py-5 sm:py-20">
       <div className="text-center sm:text-left space-y-8 sm:space-y-10 max-w-3xl sm:w-3/4 mx-auto px-2 sm:px-6">
         {/* Top Row: Profile + Socials */}
         <motion.div
