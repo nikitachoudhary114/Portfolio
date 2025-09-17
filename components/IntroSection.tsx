@@ -122,12 +122,12 @@ export default function IntroSection() {
           >
             <Lightbulb className="w-5 h-5 flex-shrink-0 text-cyan-400 mt-1" />
             <span>
-              I'm a full-stack developer dedicated to building the next
+              {`I'm a full-stack developer dedicated to building the next
               generation of web applications. I specialize in architecting
               end-to-end solutions, combining powerful backend systems with
               polished, intuitive frontend interfaces. My work is defined by a
               commitment to performance, accessibility, and delivering
-              exceptional user experiences.
+              exceptional user experiences.`}
             </span>
           </motion.p>
 
@@ -139,11 +139,11 @@ export default function IntroSection() {
           >
             <Rocket className="w-5 h-5 flex-shrink-0 text-purple-400 mt-1" />
             <span>
-              My interests extend beyond the current tech landscape; I'm
+              {`My interests extend beyond the current tech landscape; I'm
               actively exploring the potential of AI and Web3 and believe in the
               power of open-source collaboration to drive innovation. I'm
               excited to connect with like-minded individuals to create
-              something truly transformative.
+              something truly transformative.`}
             </span>
           </motion.p>
         </motion.div>
