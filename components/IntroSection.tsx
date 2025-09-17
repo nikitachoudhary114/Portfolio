@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Github, Linkedin, Twitter, Download } from "lucide-react";
+import { Github, Linkedin, Twitter, Download, Lightbulb, Rocket } from "lucide-react";
 import React from "react";
 import LeetCodeIcon from "./icons/LeetcodeIcon";
 import { motion } from "framer-motion";
@@ -92,10 +92,10 @@ export default function IntroSection() {
           <div className="flex flex-col sm:flex-row justify-between gap-4 items-start w-full">
             <div className="flex flex-col items-center sm:items-start w-full">
               <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-1 text-center sm:text-left w-full">
-              Hi, I&apos;m Nikita
+                Hi, I&apos;m Nikita
               </h1>
               <p className="text-sm sm:text-base md:text-xl text-gray-400 text-center sm:text-left w-full">
-              20, Pune | Full Stack Developer
+                20, Pune | Full Stack Developer
               </p>
             </div>
 
@@ -115,24 +115,36 @@ export default function IntroSection() {
 
           {/* Intro Text */}
           <motion.p
-            className="text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
+            className="flex gap-2 text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            &rarr; Passionate full-stack developer creating modern,
-            high-performance web apps with clean design, accessibility, and a
-            focus on meaningful user experiences.
+            <Lightbulb className="w-5 h-5 flex-shrink-0 text-cyan-400 mt-1" />
+            <span>
+              I'm a full-stack developer dedicated to building the next
+              generation of web applications. I specialize in architecting
+              end-to-end solutions, combining powerful backend systems with
+              polished, intuitive frontend interfaces. My work is defined by a
+              commitment to performance, accessibility, and delivering
+              exceptional user experiences.
+            </span>
           </motion.p>
 
           <motion.p
-            className="text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
+            className="flex gap-2 items-start text-gray-400 text-sm sm:text-base md:text-lg leading-relaxed"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            &rarr; Exploring AI, Web3, and open-source contributions—always
-            excited to collaborate and build impactful projects!
+            <Rocket className="w-5 h-5 flex-shrink-0 text-purple-400 mt-1" />
+            <span>
+              My interests extend beyond the current tech landscape; I'm
+              actively exploring the potential of AI and Web3 and believe in the
+              power of open-source collaboration to drive innovation. I'm
+              excited to connect with like-minded individuals to create
+              something truly transformative.
+            </span>
           </motion.p>
         </motion.div>
       </div>
