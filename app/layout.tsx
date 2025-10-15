@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Nikita Choudhary | Portfolio",
   description:
     "Full-stack developer skilled in JavaScript, TypeScript, Next.js, MERN, and PostgreSQL. Passionate about building scalable web applications with real-world impact.",
+  icons: {
+    icon: "/icon.png", // <-- your image in public folder
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -25,12 +30,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
+        <head>
+          <link rel="icon" href="/icon.png" />
+        </head>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         <Analytics />
-        
       </body>
     </html>
   );

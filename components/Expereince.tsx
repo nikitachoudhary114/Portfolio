@@ -51,6 +51,26 @@ const experiences: Experience[] = [
   },
   {
     id: 2,
+    icon: <Globe className="w-6 h-6 text-blue-400" />,
+    role: "Freelance Web Developer",
+    company: "Independent Project",
+    period: "Mar 2025 – May 2025",
+    location: "Remote",
+    website: "", // optional
+    linkedin: "", // optional
+    tech: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
+    summary:
+      "Designed and developed a fully responsive website focusing on clean UI, intuitive UX, and optimized performance.",
+    details: [
+      "Built a responsive web interface using React and Tailwind CSS with smooth animations via Framer Motion.",
+      "Enhanced UX through modern layouts, intuitive navigation, and pixel-perfect responsiveness.",
+      "Optimized frontend performance for faster load times and seamless user interaction.",
+      "Delivered an independent project showcasing strong design sense and attention to user experience.",
+    ],
+  },
+
+  {
+    id: 3,
     icon: <Cpu className="w-6 h-6 text-purple-400" />,
     role: "Full Stack Intern",
     company: "Arevei Tech",
