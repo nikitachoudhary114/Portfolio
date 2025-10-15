@@ -78,6 +78,8 @@ export const skills = [
       "Vercel",
       "Docker",
       "Kubernetes",
+      "Kafka",
+      "RabbitMQ",
       "Postman",
       "VS Code / JetBrains IDEs",
       "Prisma Studio / GraphQL Playground",
