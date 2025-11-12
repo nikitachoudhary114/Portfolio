@@ -26,7 +26,7 @@ const experiences: Experience[] = [
     icon: <BuildingIcon />,
     role: "Full Stack Intern",
     company: "Globetripster",
-    period: "June 2025 – Present",
+    period: "June 2025 – October 2025",
     location: "Remote",
     website: "", // No website available
     linkedin: "", // No LinkedIn available
