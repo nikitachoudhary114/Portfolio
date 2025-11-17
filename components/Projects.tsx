@@ -97,7 +97,7 @@ const clientProjects: Project[] = [
   },
   {
     title: "Arevei Company Website",
-    link: "https://www.arevei.com/",
+    link: "https://arevei-front-new.vercel.app/",
     description:
       "Company website for booking, showcasing previous works, and company details. Built in MERN stack with TypeScript.",
     tech: ["MERN", "TypeScript", "TailwindCSS"],
