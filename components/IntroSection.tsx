@@ -100,7 +100,7 @@ export default function IntroSection() {
             </div>
 
             <motion.a
-              href="/Nikita_Choudhary.pdf"
+              href="/nikita choudhary.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
