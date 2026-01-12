@@ -29,7 +29,7 @@ const experiences: Experience[] = [
   role: "Software Engineer Intern",
   company: "NMSR Infotech",
   period: "Nov 2025 – Present",
- location: "Remote · Tuart Hill, Western Australia"
+ location: "Remote · Tuart Hill, Western Australia",
   website: "https://nmsrinfotech.com/",
   linkedin: "https://www.linkedin.com/company/nmsr-infotech/posts/?feedView=all",
   tech: [
@@ -55,7 +55,7 @@ const experiences: Experience[] = [
     role: "Full Stack Intern",
     company: "Globetripster",
     period: "June 2025 – October 2025",
-  location: "Remote · Michigan, United States"
+  location: "Remote · Michigan, United States",
     website: "", // No website available
     linkedin: "", // No LinkedIn available
     tech: [
@@ -103,7 +103,7 @@ const experiences: Experience[] = [
     role: "Full Stack Intern",
     company: "Arevei Tech",
     period: "Aug 2024 – Feb 2025",
-location: "Remote · Delhi, India"
+location: "Remote · Delhi, India",
     website: "https://arevei.com",
     linkedin: "https://www.linkedin.com/company/areveiofficial/",
     tech: [
