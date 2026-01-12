@@ -5,6 +5,8 @@ import { Globe, Linkedin, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import BuildingIcon from "./icons/BuildingIcon";
 import { Cpu } from "lucide-react";
+import { Layers } from "lucide-react";
+
 
 interface Experience {
   id: number;
@@ -22,7 +24,39 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    id: 1,
+  id: 1,
+  icon: <Layers className="w-6 h-6 text-emerald-400" />,
+  role: "Software Engineer Intern",
+  company: "NMSR Infotech",
+  period: "Nov 2025 – Present",
+  location: "On-site / Remote",
+  website: "https://nmsrinfotech.com/",
+  linkedin: "https://www.linkedin.com/company/nmsr-infotech/posts/?feedView=all",
+  tech: [
+    "NestJS",
+    "GraphQL",
+    "Node.js",
+    "Redis",
+    "AWS",
+    "PostgreSQL",
+    "Payment Gateways",
+    "Microservices",
+    "Tailwind CSS",
+  ],
+  summary:
+    "Contributing to a scalable CRM platform by designing architecture, managing teams, and building high-performance backend systems.",
+  details: [
+    "Worked on a production-grade CRM system handling users, leads, tasks, billing, and role-based access.",
+    "Made architectural decisions for backend services using NestJS and GraphQL.",
+    "Designed and implemented secure payment workflows, including transaction handling and webhook processing.",
+    "Used Redis for caching, rate limiting, and performance optimization.",
+    "Deployed and managed services on AWS, ensuring scalability and reliability.",
+    "Collaborated with cross-functional teams, reviewed code, and guided junior developers.",
+  ],
+},
+
+  {
+    id: 2,
     icon: <BuildingIcon />,
     role: "Full Stack Intern",
     company: "Globetripster",
@@ -50,7 +84,7 @@ const experiences: Experience[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     icon: <Globe className="w-6 h-6 text-blue-400" />,
     role: "Freelance Web Developer",
     company: "Independent Project",
@@ -70,7 +104,7 @@ const experiences: Experience[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     icon: <Cpu className="w-6 h-6 text-purple-400" />,
     role: "Full Stack Intern",
     company: "Arevei Tech",
