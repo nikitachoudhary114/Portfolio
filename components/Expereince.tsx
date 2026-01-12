@@ -29,7 +29,7 @@ const experiences: Experience[] = [
   role: "Software Engineer Intern",
   company: "NMSR Infotech",
   period: "Nov 2025 – Present",
-  location: "On-site / Remote",
+  location: "Remote",
   website: "https://nmsrinfotech.com/",
   linkedin: "https://www.linkedin.com/company/nmsr-infotech/posts/?feedView=all",
   tech: [
@@ -37,21 +37,15 @@ const experiences: Experience[] = [
     "GraphQL",
     "Node.js",
     "Redis",
-    "AWS",
-    "PostgreSQL",
-    "Payment Gateways",
-    "Microservices",
-    "Tailwind CSS",
+    "AWS"
   ],
   summary:
     "Contributing to a scalable CRM platform by designing architecture, managing teams, and building high-performance backend systems.",
   details: [
-    "Worked on a production-grade CRM system handling users, leads, tasks, billing, and role-based access.",
-    "Made architectural decisions for backend services using NestJS and GraphQL.",
-    "Designed and implemented secure payment workflows, including transaction handling and webhook processing.",
-    "Used Redis for caching, rate limiting, and performance optimization.",
-    "Deployed and managed services on AWS, ensuring scalability and reliability.",
-    "Collaborated with cross-functional teams, reviewed code, and guided junior developers.",
+    "Designed backend architecture for a CRM platform using NestJS and GraphQL, supporting multiple business workflows.",
+    "Implemented secure payment systems with webhook handling, transaction validation, and failure recovery.",
+    "Optimized performance using Redis for caching and rate limiting, improving system responsiveness.",
+    "Deployed and managed services on AWS while collaborating with the team on technical decisions and code reviews.",
   ],
 },
 
