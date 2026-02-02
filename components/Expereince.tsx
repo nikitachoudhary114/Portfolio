@@ -35,9 +35,9 @@ const experiences: Experience[] = [
   tech: [
     "NestJS",
     "GraphQL",
-    "Node.js",
     "Redis",
     "AWS",
+    "Node.js",
     "Docker",
     "Kubernetes"
   ],
