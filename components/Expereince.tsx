@@ -26,7 +26,7 @@ const experiences: Experience[] = [
   {
   id: 1,
   icon: <Layers className="w-6 h-6 text-emerald-400" />,
-  role: "Software Engineer Intern",
+  role: "Full Stack Engineer",
   company: "NMSR Infotech",
   period: "Nov 2025 – Present",
  location: "Remote · Tuart Hill, Western Australia",
@@ -37,14 +37,16 @@ const experiences: Experience[] = [
     "GraphQL",
     "Node.js",
     "Redis",
-    "AWS"
+    "AWS",
+    "Docker",
+    "Kubernetes"
   ],
   summary:
     "Contributing to a scalable CRM platform by designing architecture, managing teams, and building high-performance backend systems.",
   details: [
-    "Designed backend architecture for a CRM platform using NestJS and GraphQL, supporting multiple business workflows.",
-    "Implemented secure payment systems with webhook handling, transaction validation, and failure recovery.",
-    "Optimized performance using Redis for caching and rate limiting, improving system responsiveness.",
+     "Led end-to-end development of a multi-tenant B2B SaaS platform for Australian service businesses, supporting 5+ user roles, tenant-isolated data architecture, and onboarding flows designed to scale to 4,000+ SMB companies.",
+    "Built payment, partial-payment, and payout workflows using Stripe, enabling booking transactions, deposits, and balance settlements with automated reconciliation and real-time status synchronization.",
+    "Implemented employee and contractor payroll systems, including pay runs, gross/net calculations, PAYG withholding logic, and compliance-ready data models aligned with Australian payroll standards.",
     "Deployed and managed services on AWS while collaborating with the team on technical decisions and code reviews.",
   ],
 },
