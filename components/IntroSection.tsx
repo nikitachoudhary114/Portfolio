@@ -48,7 +48,7 @@ export default function IntroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Image
-              src="/profile.png"
+              src="/profile.jpeg"
               alt="Profile picture"
               fill
               className="rounded-3xl object-cover"
@@ -100,7 +100,7 @@ export default function IntroSection() {
             </div>
 
             <motion.a
-              href="/nikita choudhary.pdf"
+              href="/nikita_choudhary.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
