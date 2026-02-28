@@ -18,7 +18,7 @@ const personalProjects: Project[] = [
   {
     title: "LeetPeers",
     status: "In Development",
-    link: "",
+   
     githubLink: "https://github.com/nikitachoudhary114/Leetpeers",
     description:
       "Collaborative coding platform tracking daily LeetCode progress in groups, with streaks, badges, real-time chat, video calls, whiteboard collaboration, and AI-assisted coding help.",
@@ -66,8 +66,7 @@ const personalProjects: Project[] = [
   },
   {
     title: "Smart Attendance System",
-    link: "https://github.com/nikitachoudhary114/mini-project-attendance-system",
-    githubLink: "",
+    githubLink: "https://github.com/nikitachoudhary114/mini-project-attendance-system",
     description:
       "IoT-based attendance system using ESP32 and keypad with MCQ-based attendance marking and MongoDB storage.",
     tech: ["ESP32", "MERN"],
@@ -82,7 +81,6 @@ const personalProjects: Project[] = [
   },
   {
     title: "Simon Says Game",
-    link: "",
     githubLink: "https://github.com/nikitachoudhary114/game",
     description:
       "Web-based memory game with animated sequences and responsive UI.",
