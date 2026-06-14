@@ -34,8 +34,8 @@ const personalProjects: Project[] = [
   },
   {
     title: "Weekendly",
-    link: "https://kairos-azure-beta.vercel.app/",
-    githubLink: "https://github.com/nikitachoudhary114/kairos",
+    link: "https://week-endly.vercel.app/",
+    githubLink: "https://github.com/nikitachoudhary114/weekendly",
     description:
       "Interactive weekend planner app with drag-and-drop scheduling, dark/light themes, offline PWA support, exportable plans, and strong UI polish.",
     tech: [
