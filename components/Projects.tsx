@@ -48,6 +48,7 @@ const personalProjects: Project[] = [
       "LocalStorage",
       "PWA",
     ],
+     highlight: true,
   },{
   title: "Forest Focus",
   status: "Live",
@@ -82,6 +83,7 @@ const personalProjects: Project[] = [
       "Socket.io",
       "Cron Jobs",
     ],
+     highlight: true,
   },
   {
     title: "Smart Attendance System",
@@ -98,6 +100,7 @@ const personalProjects: Project[] = [
       "Full-stack food delivery app with Stripe payments, order management, and admin dashboard.",
     tech: ["React", "Node.js", "Stripe", "MongoDB"],
   },
+   highlight: true,
   {
     title: "Simon Says Game",
     githubLink: "https://github.com/nikitachoudhary114/game",
@@ -105,6 +108,7 @@ const personalProjects: Project[] = [
       "Web-based memory game with animated sequences and responsive UI.",
     tech: ["HTML", "CSS", "JavaScript"],
   },
+   highlight: true,
 ];
 
 const clientProjects: Project[] = [
