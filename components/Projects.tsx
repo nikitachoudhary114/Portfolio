@@ -49,7 +49,6 @@ const personalProjects: Project[] = [
       "PWA",
     ],
   },{
-    {
   title: "Forest Focus",
   status: "Live",
   link: "https://forest-study.vercel.app", 
@@ -69,8 +68,7 @@ const personalProjects: Project[] = [
     "Chrome Extension",
   ],
   highlight: true,
-},
-  },  {
+},  {
     title: "MedifyPro",
     link: "https://medifypro.vercel.app/",
     githubLink: "https://github.com/nikitachoudhary114/MedifyPro",
