@@ -34,6 +34,7 @@ const personalProjects: Project[] = [
   },
   {
     title: "Weekendly",
+    status: "Live",
     link: "https://week-endly.vercel.app/",
     githubLink: "https://github.com/nikitachoudhary114/weekendly",
     description:
@@ -71,6 +72,7 @@ const personalProjects: Project[] = [
   highlight: true,
 },  {
     title: "MedifyPro",
+    status: "Live",
     link: "https://medifypro.vercel.app/",
     githubLink: "https://github.com/nikitachoudhary114/MedifyPro",
     description:
@@ -94,6 +96,7 @@ const personalProjects: Project[] = [
   },
   {
     title: "Tomato",
+    status: "Live",
     link: "https://food-del-frontend-z00t.onrender.com/",
     githubLink: "https://github.com/nikitachoudhary114/food-del",
     description:
@@ -103,13 +106,14 @@ const personalProjects: Project[] = [
   },
   {
     title: "Simon Says Game",
-     link: "https://nikitachoudhary114.github.io/game/"
+    status: "Live",
+     link: "https://nikitachoudhary114.github.io/game/",
     githubLink: "https://github.com/nikitachoudhary114/game",
     description:
       "Web-based memory game with animated sequences and responsive UI.",
     tech: ["HTML", "CSS", "JavaScript"],
+    highlight: true,
   },
-   highlight: true,
 ];
 
 const clientProjects: Project[] = [
