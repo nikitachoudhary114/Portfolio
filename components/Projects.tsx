@@ -48,8 +48,29 @@ const personalProjects: Project[] = [
       "LocalStorage",
       "PWA",
     ],
-  },
-  {
+  },{
+    {
+  title: "Forest Focus",
+  status: "Live",
+  link: "https://forest-study.vercel.app", 
+  githubLink: "https://github.com/nikitachoudhary114/forest",
+  description:
+    "Forest-inspired Pomodoro app with focus timer, growth stages, companion pets, session tags, study rooms, achievements, shop, and ambient sounds. Includes a Chrome extension for cross-tab site blocking, live timer sync, and ambient audio during sessions.",
+  tech: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Recharts",
+    "Chrome Extension",
+  ],
+  highlight: true,
+},
+  },  {
     title: "MedifyPro",
     link: "https://medifypro.vercel.app/",
     githubLink: "https://github.com/nikitachoudhary114/MedifyPro",
