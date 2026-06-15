@@ -99,10 +99,11 @@ const personalProjects: Project[] = [
     description:
       "Full-stack food delivery app with Stripe payments, order management, and admin dashboard.",
     tech: ["React", "Node.js", "Stripe", "MongoDB"],
-  },
    highlight: true,
+  },
   {
     title: "Simon Says Game",
+     link: "https://nikitachoudhary114.github.io/game/"
     githubLink: "https://github.com/nikitachoudhary114/game",
     description:
       "Web-based memory game with animated sequences and responsive UI.",
