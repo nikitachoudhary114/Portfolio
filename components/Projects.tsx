@@ -31,6 +31,32 @@ const personalProjects: Project[] = [
       "PostgreSQL",
       "Excalidraw",
     ],
+  },{
+    
+title: "CrowdPlay",
+description:
+"A real-time collaborative music queue platform where users can create or join rooms, vote on songs, chat with participants, and boost tracks using payments or Web3 tokens. Features synchronized YouTube playback, live queue management, creator monetization, and real-time interactions powered by WebSockets.",
+tech: [
+"Next.js",
+"TypeScript",
+"PostgreSQL",
+"Prisma",
+"Redis",
+"Socket.IO",
+"Tailwind CSS",
+"Razorpay",
+"Solidity",
+"Hardhat",
+"Polygon Amoy",
+"wagmi",
+"RainbowKit"
+],
+status: "Completed",
+link: "https://crowdplay-production-543a.up.railway.app/",
+githubLink: "https://github.com/nikitachoudhary114/crowdPlay",
+highlight: true
+
+
   },
   {
     title: "Weekendly",
